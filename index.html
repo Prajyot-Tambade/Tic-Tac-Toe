@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    
+    <div class="container center">
+        
+        <h1 class="title">Tic Tac Toe</h1>
+        <p class="display-turn"><span id="player">X</span>'s turn</p>
+        <div class="grid">
+            <div class="box center bl-0 bt-0"></div>
+            <div class="box center bt-0 bt-0"></div>
+            <div class="box center br-0 bt-0"></div>
+            <div class="box center bl-0"></div>
+            <div class="box center"></div>
+            <div class="box center br-0"></div>
+            <div class="box center bb-0 bl-0"></div>
+            <div class="box center bb-0"></div>
+            <div class="box center bb-0 br-0"></div>
+        </div>
+
+        <button id="reset">Reset</button>
+
+        <div class="popup center" id="X">
+            <div class="win-symbol">
+                <span>X</span>
+            </div>
+    
+            <h2 class="result">WINNER!</h2>
+            <button class="replay">Replay</button>
+        </div>
+    
+        <div class="popup center" id="O">
+            <div class="win-symbol">
+                <span>O</span>
+            </div>
+    
+            <h2 class="result">WINNER!</h2>
+            <button class="replay">Replay</button>
+        </div>
+    
+        <div class="popup center" id="draw">
+            <div class="win-symbol">
+                <span>X</span>
+                <span>O</span>
+            </div>
+    
+            <h2 class="result">DRAW!</h2>
+            <button class="replay">Replay</button>
+        </div>
+
+    </div>
+    
+    <!-- WATERMARK -->
+    <div class="waterMark">
+        <p>Made by</p>
+        <a href="https://github.com/Prajyot-Tambade" class="name" target="_blank">Prajyot Tambade <i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <!-- Font Awesome icons script -->
+    <script src="https://kit.fontawesome.com/5f14f89bbf.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
